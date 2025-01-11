@@ -1,0 +1,8 @@
+[build]
+  functions = "api"
+  publish = "public"  # Adjust this if your static files are in a different directory
+
+[[redirects]]
+  from = "/api/*"
+  to = "/api/main.py"
+  status = 200
